@@ -30,12 +30,12 @@ main() {
 
 		std::cout << "\nStrings after sorting:\n";
 		
-		PrintString(array, size)
+		PrintString(array, size);
+		delete[] arr;
 
 	catch (const char* message) {
 		std::cout << message << '\n';
 	}
-	delete[] arr;
 	return 0;
 }
 
